@@ -15,7 +15,7 @@ int main() {
       cout << n << " ";
     } else {
       n *= 3;
-      n = n + 1;
+      n++;
       cout << n << " ";
     }
   }
