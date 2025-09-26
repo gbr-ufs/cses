@@ -14,6 +14,8 @@ set<unsigned long> from_one_to_n(const unsigned long& n) {
 }
 
 int main() {
+  ios_base::sync_with_stdio(false);
+  cin.tie(NULL);
   unsigned long n;
 
   cin >> n;
