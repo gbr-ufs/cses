@@ -3,7 +3,7 @@
 
 using namespace std;
 
-set<unsigned long> from_one_to_n(unsigned long n) {
+set<unsigned long> from_one_to_n(const unsigned long& n) {
   set<unsigned long> numbers;
 
   for (unsigned long i = 1; i <= n; i++) {
